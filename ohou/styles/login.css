@@ -1,0 +1,193 @@
+#wrap {
+    background-color: #fff;
+    width: 1024px; 
+    margin: 0 auto;
+    padding: 0 80px;
+}
+#wrap header {
+    padding: 21px 0 25px 0;
+}
+#wrap header h1 {}
+#wrap header h1 a {}
+#wrap header h1 a img {}
+/*========================= 공통 */
+#wrap main .big_box {
+    margin-bottom: 22px;
+}
+#wrap main * .big_box h3 {
+    font-size: 1.06rem; font-weight: 500;letter-spacing: -0.02rem;
+    margin-bottom: 10px;
+} 
+#wrap main * .bottom_info {
+    font-size: 0.88rem; color: #777; letter-spacing: -0.02rem;
+    margin-bottom: 10px;
+} 
+#wrap main * .big_box input[name*=user]{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+#wrap main * .big_box input[name*=user]::placeholder {
+    color: #bbb;
+    letter-spacing: -0.02rem;
+}
+
+#wrap main {
+    width: 360px;
+    margin: 0 auto;
+}
+/* 첫번째 form */
+#wrap main .login {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EDEDED;
+}
+#wrap main .login h2 {
+    font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02rem; 
+}
+#wrap main .login .fst {
+    margin: 14px 0;
+    text-align: center;
+}
+#wrap main .login .sns_login {
+    text-align: center;
+}
+#wrap main .login .sns_login a {
+    display: inline-block;
+}
+#wrap main .login .sns_login a:nth-child(1) {position: relative; top: 6px;}
+#wrap main .login .sns_login a:nth-child(2) {margin: 0 20px 0;}
+#wrap main .login .sns_login a img {}
+/* ==========이메일로그인 */
+#wrap main #email_re  {}
+#wrap main #email_re .email  {}
+#wrap main #email_re .email h3  {}
+#wrap main #email_re .email .email_select  {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#wrap main #email_re .email .email_select .email_box  {
+}
+#wrap main #email_re .email .email_select .email_box #us_email  {
+    background-color: pink;
+    width: 170px; 
+    padding: 10px;
+    border: none;
+}
+#wrap main #email_re .email .email_select .email_box label {}
+#wrap main #email_re .email .email_select p {
+    background-color: firebrick; 
+    display: inline-block;
+    color: #777; letter-spacing: -0.02rem;
+}
+#wrap main #email_re .email .email_select select {
+    background-color: palegreen; height: 41px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 8px;
+    background-image: url('../images/arrow_drop_down.png');
+    background-repeat: no-repeat;
+    background-position: 140px center;
+}
+#wrap main #email_re .email .email_select select option {
+    letter-spacing: -0.02rem;
+}
+#wrap main #email_re .email button {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-weight: 600; letter-spacing: -0.02rem;
+    color: #777;
+    border-radius: 8px;
+    padding: 10px;
+}
+/* 두번째 form */
+#wrap main #authen {}
+#wrap main #authen .pw {}
+#wrap main #authen .pw h3 {}
+#wrap main #authen .pw h3 .bottom_info {}
+#wrap main #authen .pw .pw_box {}
+#wrap main #authen .pw .pw_box input[name=user_pw] {}
+#wrap main #authen .pw .pw_box label {}
+#wrap main #authen .pw_re {}
+#wrap main #authen .pw_re h3 {}
+#wrap main #authen .pw_re h3 .re_box {}
+#wrap main #authen .pw_re h3 .re_box input[name=user_repw] {}
+#wrap main #authen .pw_re h3 .re_box label {}
+#wrap main #authen .name {}
+#wrap main #authen .name h3 {}
+#wrap main #authen .name h3 .bottom_info {}
+#wrap main #authen .name h3 .bottom_info .name_box {}
+#wrap main #authen .name h3 .bottom_info .name_box input[name=user_name] {}
+#wrap main #authen .name h3 .bottom_info .name_box label {}
+/* 약관동의 */
+#wrap main #authen .agree {}
+#wrap main #authen .agree h3 {}
+#wrap main #authen .agree .wrap_agree {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+#wrap main #authen .agree .wrap_agree > p {
+    border-bottom: 1px solid #eee;
+    padding: 4px 0 9px 0;
+    background-image: url(../images/check_box_y.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-bottom: 1px solid #eee;
+}
+#wrap main #authen .agree .wrap_agree > p * {
+    margin: 4px 0 9px 0;
+}
+#wrap main #authen .agree .wrap_agree > p span {
+    padding-left:34px;
+    font-weight: 600; letter-spacing: -0.02rem;
+}
+#wrap main #authen .agree .wrap_agree > p em {
+    margin-left: 3px;
+    font-size: 0.88rem;
+    letter-spacing: -0.02rem; color: #777;
+}
+#wrap main #authen .agree .wrap_agree .agree_box {
+}
+#wrap main #authen .agree .wrap_agree .agree_box li {
+    margin-top: 10px;
+    background-image: url('../images/check_box_n.png'),url('../images/arrow_forward_ios.png');
+    background-repeat: no-repeat;
+    padding-left: 34px;
+    background-position: left center, right center;
+}
+#wrap main #authen .agree .wrap_agree .agree_box li:nth-child(1),
+#wrap main #authen .agree .wrap_agree .agree_box li:nth-child(5) {
+    background-image: url('../images/check_box_n.png'), none;
+}
+#wrap main #authen .agree .wrap_agree .agree_box li input[name=agree] {
+}
+#wrap main #authen .agree .wrap_agree .agree_box li p {
+    font-size: 0.88rem; letter-spacing: -0.02rem;
+    position: relative; bottom: 10px;
+
+}
+#wrap main #authen .agree .wrap_agree .agree_box li em {
+    color: #3292FF;
+}
+#wrap main #authen .agree .wrap_agree .agree_box li:nth-child(4) em,
+#wrap main #authen .agree .wrap_agree .agree_box li:nth-child(5) em {
+    color: #777;
+}
+#wrap main #authen .agree .wrap_agree .agree_box li label {}
+#wrap main #authen > button {
+    background-color: #3292FF;
+    padding: 15px 10px;
+    color: #fff; letter-spacing: -0.02rem;
+    width: 100%; border-radius: 8px;
+    margin-bottom: 22px;
+}
+#wrap main .qa_login {
+    text-align: center; font-size: 0.88rem; letter-spacing: -0.02rem;
+}
+#wrap main .qa_login a {font-weight: 600; border-bottom: 1px solid #222; margin-left: 5px;}
