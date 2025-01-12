@@ -10,9 +10,9 @@ const excessW = document.querySelector('.weight_excess');
 btn.addEventListener('click', function(){
     //적정체중 출력
     const properWeight = (Number(height.value) - 100)*0.9;
-    properW.innerHTML = properWeight;
+    properW.innerHTML = properWeight.toFixed(2);
     console.log((height.value-100)*0.9);
     //초과된 체중 출력
-    excessW.innerHTML = Number(weight.value) - properWeight;
+    excessW.innerHTML = (Number(weight.value) - properWeight).toFixed(2);
     console.log(weight.value - properWeight);
 })
