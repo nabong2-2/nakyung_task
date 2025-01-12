@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>적정 체중 구하기</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/weight.css">
+    <script src="./script/weight.js" defer></script>
+</head>
+<body>
+<!-- ## (**과제**)**적정 체중 구하는 테스트기 만들기**
+**`적정체중 = (본인신장-100)*0.9`**
+**적정 체중 구하는 계산기 만들기**
+계산식) **적정체중 = (본인신장-100)*0.9**
+변수명 예) **userHeight, userWeight, goals, result, normal_w**
+- +CSS 디자인은 심미적으로 자유롭게 표현하세요.
+- 현재 키와 몸무게를 자유롭게 입력하고
+- 버튼을 눌렀을 때 최종 목표 칸에 메세지 출력하기
+최종목표 **결과예시) 적정체중은 ?kg이며 ?kg 초과되셨습니다.** -->
+<div id="container">
+    <div class="contents">
+        <h1>적정 체중 구하기♥</h1>
+        <form action="#" method="get">
+            <div class="height_wrap">
+                <span class="title">키</span>
+                <input type="number" name="user_height" placeholder="숫자만 입력하세요." id="user_height" required>
+                <span class="unit">cm</span>
+            </div>
+            <div class="weight_wrap">
+                <span class="title">몸무게</span>
+                <input type="number" name="user_weight"  placeholder="숫자만 입력하세요." id="user_weight" required>
+                <span class="unit">kg</span>
+            </div>
+            <button type="button">결과 확인하기</button>
+        </form>
+        <span class="result">적정 체중은 <em class="weight_proper">0</em>kg이며 <em class="weight_excess">0</em>kg 초과되셨습니다. </span>
+    </div>
+</div>
+</body>
+</html>

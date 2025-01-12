@@ -1,0 +1,83 @@
+* {
+    font-family: 'netmarbleB';
+}
+#container {
+    padding-top: 200px;
+}
+#container .contents {
+    width: 1100px; margin: 0 auto;
+    background-color: #F8F8F8;
+    text-align: center;
+    border: 2px solid #7B7B7B;
+    border-radius: 5px;
+    padding: 63px 0;
+}
+#container .contents > * {
+    margin-bottom: 57px;
+}
+#container .contents h1 {
+    font-size: 2.50rem;
+    font-weight: 500;
+}
+#container .contents form {}
+#container .contents form span {display: block;}
+#container .contents form .title {
+    border: 3px solid #222;
+    border-radius: 5px;
+    font-size: 1.38rem;
+    display: flex;
+    align-items: center;
+    background-color: #FFEB54;
+}
+#container .contents form input[name^=user] {
+    padding: 15px 45px;
+    border: 3px solid #222;
+    border-radius: 5px;
+    width: 250px;
+    margin: 0 12px;
+}
+#container .contents form input[name^=user]::placeholder {
+    font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02rem; color: #888;
+    display: inline-block;
+}
+#container .contents form .unit {
+    font-size: 1.88rem; letter-spacing: -0.02rem; font-weight: 400;
+}
+/* 개별 */
+/* 키 */
+#container .contents form .height_wrap {
+    margin-bottom: 20px;
+    position: relative; left: 12px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: center; align-items: center;
+}
+#container .contents form .height_wrap .title {
+    padding: 14px 20px;
+}
+#container .contents form .height_wrap input[name*=height] {}
+#container .contents form .height_wrap .unit {}
+/* 몸무게 */
+#container .contents form .weight_wrap {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center; align-items: center;
+}
+#container .contents form .weight_wrap .title {
+    padding: 14px 10px;
+}
+#container .contents form .weight_wrap input[name*=weight] {}
+#container .contents form .weight_wrap .unit {}
+#container .contents form button {
+    background-color: #BEE9FF;
+    padding: 15px 85px;
+    font-size: 1.38rem;
+    border: 3px solid #222; border-radius: 5px;
+    margin-top: 30px;
+}
+#container .contents .result {
+    margin-bottom: 0; font-size: 1.80rem;
+}
+#container .contents .result em {
+    border-bottom: 4px solid #222;
+}
+#container .contents .result .weight_proper {}
+#container .contents .result .weight_excess {}
